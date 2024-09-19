@@ -13,7 +13,7 @@
       }
     ],
     "functions": {
-      "path/to/dir/**/*": {
+      "api/index.js": {
         "maxDuration": 60
       }
     }

@@ -11,5 +11,10 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ]
+    ],
+    "functions": {
+      "path/to/dir/**/*": {
+        "maxDuration": 60
+      }
+    }
   }

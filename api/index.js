@@ -33,7 +33,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.get("/", (req, res) => {
-  res.send("test ok now");
+  res.send(process.env.MONGO_URL);
 });
 
 const jwtSecret = process.env.JWT_SECRET;

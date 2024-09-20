@@ -6,7 +6,7 @@ import Routes from './assets/Routes.js';
 
 function App() {
 
-  axios.defaults.baseURL = 'http://localhost:4000';
+  axios.defaults.baseURL = 'https://chat-app-2-3w4ibgf3d-samyaks-projects.vercel.app/';
   axios.defaults.withCredentials = true;
   
 
